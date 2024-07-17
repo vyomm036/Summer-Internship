@@ -1,0 +1,174 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f3ef;
+          padding: 0px;
+          text-align: center;
+        }
+        .button.responses {
+          background-color: #008CBA;
+        }
+        .modal {
+          display: none;
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgba(0, 0, 0, 0.4);
+          padding-top: 60px;
+        }
+        .modal-content {
+          background-color: #fefefe;
+          margin: 5% auto;
+          padding: 20px;
+          border-radius: 15px;
+          border: 1px solid #888;
+          width: 800px;
+          max-width: 500px;
+          text-align: left;
+        }
+    
+        .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+    
+        .close:hover,
+        .close:focus {
+          color: rgb(214, 211, 211);
+          text-decoration: none;
+          cursor: pointer;
+        }
+    
+        input[type="text"] {
+          width: calc(65% - 30px);
+          padding: 10px;
+          border-radius: 15px;
+          color: #100f0f;
+          margin-top: 5px;
+          box-sizing: border-box;
+          text-align: left;
+          border-color: #888;
+        }
+    
+        .question-container .nc-icon {
+          background-color: #b2b0ad;
+          width: 40px;
+          margin-top: 2 px;
+          height: 36px;
+          color: rgb(249, 241, 241);
+          border-radius: 17px;
+        }
+    
+        .question-container .nc-icon:hover {
+          background-color: #4a4947;
+        }
+        .form-group .form-control + .input-group-prepend .input-group-text, .form-group .form-control + .input-group-append .input-group-text, .input-group .form-control + .input-group-prepend .input-group-text, .input-group .form-control + .input-group-append .input-group-text{
+        padding: 10px 10px 10px 0;
+        margin: 5px 0px 0px;
+        }
+        .p1 {
+          margin-left: 40px !important;
+        }
+    
+        input[type="text"],
+        input[type="date"],
+        select {
+          width: calc(85% - 30px);
+          padding: 10px;
+          margin-top: 5px;
+          font-size: 14px;
+          border: 1px solid #dadce0;
+          border-radius: 15px;
+          transition: border-color 0.3s ease;
+        }
+    
+        .card label {
+          font-size: 0.8571em;
+          margin-bottom: 5px;
+          color: #f8f5f5;
+        }
+        .content-editable {
+          border: 1px #dadce0;
+          background-color: #51cbce;
+          color: #fefefe;
+          padding: 15px 15px;
+          margin: 10px;
+          border-radius: 20px;
+        }
+    
+        div.enter-text {
+          text-align: center;
+        }
+    
+        .addFieldBtn {
+          background-color: #51cbce;
+          border-radius: 25px;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          display: inline-block;
+          font-size: 14px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+    
+        div.row {
+          align-items: center;
+          margin-left: 150px;
+        }
+    
+        div.card {
+          border-radius: 12px;
+          box-shadow: 0 6px 10px -4px rgba(85, 84, 84, 0.15);
+          background-color: #FFFFFF;
+          color: #252422;
+          margin-bottom: 20px;
+          position: relative;
+          border: 0 none;
+          width: 860px;
+          transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+        }
+    </style>    
+</head>
+<body class="">
+    <!-- Your HTML content here -->
+    <script>
+     document.addEventListener('DOMContentLoaded', function () {
+    // Fetch form title and description from session storage
+    const formTitle = sessionStorage.getItem('formTitle');
+    const formDescription = sessionStorage.getItem('formDescription');
+    // Set fetched values to corresponding HTML elements
+    if (formTitle) {
+        document.getElementById('formTitle').innerText = formTitle;
+    } 
+    if (formDescription) {
+        document.getElementById('formDescription').innerText = formDescription;
+    }
+    // Fetch other elements' data and perform actions
+    const createFormBtn = document.getElementById('createFormBtn');
+    if (createFormBtn) {
+        createFormBtn.addEventListener('click', function () {
+            const formNameInputValue = document.getElementById('formNameInput').value;
+            const formDescpInputValue = document.getElementById('formDescpInput').value;
+            // Fetch other data as needed
+
+            // Perform actions with fetched data
+            console.log('Form Name Input:', formNameInputValue);
+            console.log('Form Description Input:', formDescpInputValue);
+        });
+    }
+    // Add event listeners and perform actions for other elements
+});
+    </script>
+</body>
+</html>

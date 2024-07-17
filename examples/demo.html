@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #7116b7;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .button.responses {
+            background-color: #008CBA;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        #createFormBtn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Your Form</h1>
+    <h2>Enter Form Details</h2>
+    <input type="text" id="formTitleInput" placeholder="Form Title">
+    <input type="text" id="formDescriptionInput" placeholder="Form Description">
+    <label for="formTypeSelect">Form Type:</label>
+    <select id="formTypeSelect">
+        <option value="survey">Survey</option>
+        <option value="quiz">Quiz</option>
+        <option value="feedback">Feedback Form</option>
+    </select>
+    <button id="createFormBtn" onclick="createForm()">Create Form</button>
+
+    <script>
+        function createForm() {
+            const formTitle = document.getElementById('formTitleInput').value;
+            const formDescription = document.getElementById('formDescriptionInput').value;
+            const formType = document.getElementById('formTypeSelect').value;
+            if (formTitle && formType) {
+                // You can perform actions here based on the form details entered.
+                console.log('Form Title: ' + formTitle);
+                console.log('Form Description: ' + formDescription);
+                console.log('Form Type: ' + formType);
+                // Handle form creation logic
+            } else {
+                alert('Please enter a form title and select a form type.');
+            }
+        }
+    </script>
+</body>
+</html>
