@@ -11,8 +11,8 @@ Paper Dashboard is built using the same design language as **[Paper Kit](https:/
 **Bootstrap 4 Support**
 Paper Dashboard 2 is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project; you can just import the Paper Dashboard style over it. Most of the elements have been redesigned; but if you are using an element we have not touched, it will fall back to the Bootstrap default.
 
-# [[Summer Internship 2024 Progress]][LICENSE]
-##[Week 1: May 15, 2024 - June 11, 2024]
+# [[Summer Internship 2024 Progress]]
+# [[Week 1: May 15, 2024 - June 11, 2024]]
 Wednesday:
 Project Briefing: Received an overview of the internship project objectives and goals.
 UI Development: Implemented a Sweet Alert using HTML and CSS to enhance user interaction.
@@ -30,7 +30,7 @@ JavaScript Development: Wrote JavaScript scripts to enhance form interactivity a
 Tuesday:
 Bootstrap Integration: Studied Bootstrap documentation and integrated Bootstrap components for consistent UI styling.
 Theme Customization: Implemented an open-source Bootstrap theme to enhance project aesthetics and functionality.
-##[Week 2: May 20, 2024 - May 24, 2024]
+# [[Week 2: May 20, 2024 - May 24, 2024]]
 Monday:
 CSS Refinement: Fine-tuned CSS styles for improved form aesthetics and responsiveness.
 Dynamic DOM Manipulation: Implemented dynamic DOM operations like appendChild and addEventListener to enhance form interactivity.
@@ -46,7 +46,7 @@ HTML Embedding: Integrated project-specific HTML scripts into the chosen Bootstr
 Friday:
 Feature Development: Implemented a new section within the project dashboard for creating and previewing forms.
 Dashboard Enhancement: Created a dashboard card for seamless addition of new forms, improving project management capabilities.
-##[Week 3: May 27, 2024 - May 31, 2024]
+# [[Week 3: May 27, 2024 - May 31, 2024]]
 Monday:
 Database Setup: Installed and configured XAMPP for local development and setup MySQL tables using phpMyAdmin.
 Data Manipulation: Executed various MySQL queries for efficient data management and manipulation.
@@ -60,7 +60,7 @@ Thursday:
 Data Synchronization: Continued integrating JavaScript with PHP and JSON for robust data synchronization and real-time updates.
 Friday:
 Project Refinement: Addressed bugs and errors, ensuring project stability and functionality across different user scenarios.
-##[Week 4: June 3, 2024 - June 11, 2024]
+# [[Week 4: June 3, 2024 - June 11, 2024]]
 Monday:
 Dynamic Content Display: Developed tablelist.php to dynamically fetch and display forms from the database.
 Form Management: Added edit and delete functionalities using JSON and PHP, enhancing form management capabilities.
