@@ -11,7 +11,7 @@ Paper Dashboard is built using the same design language as **[Paper Kit](https:/
 **Bootstrap 4 Support**
 Paper Dashboard 2 is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project; you can just import the Paper Dashboard style over it. Most of the elements have been redesigned; but if you are using an element we have not touched, it will fall back to the Bootstrap default.
 
-##[Summer Internship 2024 Progress]
+# [[Summer Internship 2024 Progress]][LICENSE]
 ##[Week 1: May 15, 2024 - June 11, 2024]
 Wednesday:
 Project Briefing: Received an overview of the internship project objectives and goals.
